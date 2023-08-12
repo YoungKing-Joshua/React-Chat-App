@@ -3,7 +3,9 @@
 
 A simple chat application built using React, Node.js, and the ChatEngine API. This app allows users to authenticate, enter chat rooms, and engage in real-time chats with a visually appealing chat window.
 
-![Chat App Screenshot](screenshots/screenshot.png)
+**Chat App Screenshot**![Screenshot (318)](https://github.com/YoungKing-Joshua/React-Chat-App/assets/110766878/b5d0e091-ef56-4a19-89de-a846499cbb31)
+
+
 
 ## Features
 
@@ -66,6 +68,8 @@ npm dev
 
 ## Screenshots
 
-![Authentication Page](screenshots/auth-page.png)
-![Chat Page](screenshots/chat-page.png)
-```
+#### Authentication Page
+![Screenshot (314)](https://github.com/YoungKing-Joshua/React-Chat-App/assets/110766878/725d1472-8b37-4f70-8666-6448472bf000)
+
+#### Chat Page
+![Screenshot (319)](https://github.com/YoungKing-Joshua/React-Chat-App/assets/110766878/0818030c-110d-438e-88ce-761028cd0ca8)
