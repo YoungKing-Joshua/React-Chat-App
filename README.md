@@ -1,9 +1,7 @@
-Absolutely, here's a sample README specifically tailored for your chat app project. Feel free to adjust and customize it according to your project's details:
 
-```markdown
-# Chat App with React and ChatEngine
+# Chat App (Demo)
 
-This is a simple chat application built using React and the ChatEngine API. The app allows users to authenticate, enter chat rooms, and engage in real-time conversations.
+A simple chat application built using React, Node.js, and the ChatEngine API. This app allows users to authenticate, enter chat rooms, and engage in real-time chats with a visually appealing chat window.
 
 ![Chat App Screenshot](screenshots/screenshot.png)
 
@@ -12,26 +10,28 @@ This is a simple chat application built using React and the ChatEngine API. The 
 - User authentication
 - Real-time chat functionality
 - Visually appealing chat window
-- ...
 
 ## Technologies Used
 
-- Frontend: React, react-chat-engine-pretty
-- Backend: Node.js, Express
-- ...
+- **Frontend**: React, CSS, [react-chat-engine-pretty](https://socket.dev/npm/package/react-chat-engine-pretty)
+- **Backend**: Node.js, Express, Axios
 
 ## Installation
 
 1. Clone this repository to your local machine:
 
 ```sh
-git clone https://github.com/your-username/chat-app.git
+git clone https://github.com/YoungKing-Joshua/React-Chat-App.git
 ```
 
-2. Navigate to the project directory:
+2. Navigate to the project directories:
 
 ```sh
-cd chat-app
+cd client
+```
+
+```sh
+cd server
 ```
 
 3. Install dependencies:
@@ -42,19 +42,30 @@ npm install
 
 ## Usage
 
-1. Start the development server:
+1. Before using, you will need to sign up for Chat Engine API ([https://chatengine.io/](https://chatengine.io/)) and create a project to get a Project ID and Private Key.
 
+2. Place your Project ID and Private Key within the code.
+
+3. Start the development server:
+
+**Backend**
 ```sh
 npm start
 ```
 
-2. Open your web browser and visit `http://localhost:3000` to access the app.
+**Frontend**
+```sh
+npm dev
+```
 
-3. Authenticate using a unique username to enter the chat room.
+4. Open your web browser and visit `http://localhost:5173` to access the app.
 
-4. Engage in real-time conversations with other users.
+5. Authenticate using a unique username to enter the chat room.
+
+6. Engage in real-time conversations with other users.
 
 ## Screenshots
 
 ![Authentication Page](screenshots/auth-page.png)
 ![Chat Page](screenshots/chat-page.png)
+```
