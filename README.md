@@ -52,12 +52,12 @@ npm install
 
 **Backend**
 ```sh
-npm start
+npm run start
 ```
 
 **Frontend**
 ```sh
-npm dev
+npm run dev
 ```
 
 4. Open your web browser and visit `http://localhost:5173` to access the app.
